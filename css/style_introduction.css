@@ -90,6 +90,7 @@ a{
   background-color: rgba(50,50,50,0.7);
   border-radius: 20px;
   display: block;
+  max-height: 400px;
 }
 
 #SchoolBack{
