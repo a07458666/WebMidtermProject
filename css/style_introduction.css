@@ -128,3 +128,10 @@ a{
   margin-bottom: 20px;
   margin-right: 20px;
 }
+.LL:hover{
+  filter: invert(1);
+  -webkit-filter: invert(1);
+  -moz-filter: invert(1);
+  -o-filter: invert(1);
+  -ms-filter: invert(1);
+}
