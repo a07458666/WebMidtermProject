@@ -35,6 +35,9 @@ a{
   display: block;
   clear: both;
 }
+.LOGO{
+
+}
 /*icon圖片*/
 .IconImg{
   width: 3%;
@@ -61,9 +64,8 @@ a{
 }
 .textsoolp{
   position: absolute;
-  top: 45%;
-  left: 25%;
-  font-size: 72px;
+  top: 28%;
+  left: 30%;
   display: none;
 }
 .inClass{
@@ -72,9 +74,10 @@ a{
   left: 18%;
   height: 58%;
   width: 65%;
-  background-color: rgba(128,128,128,0.7);
+  background-color: rgba(50,50,50,0.7);
   border-radius: 20px;
   display:none;
+  max-height: 400px;
 }
 .inClass-active{
   display: block;
@@ -101,6 +104,14 @@ a{
   width: 90%;
   height: auto;
 }
+.Toblur {
+  filter: url(/static/svg/filter.svg#blur);
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+}
 /*線*/
 .Line{
   border:#FFFFFF 1.5px solid;
@@ -118,6 +129,22 @@ a{
   height: 10%;
   float: left;
   margin-right: 7%;
+  cursor: pointer;
+  filter: invert(0.5);
+  -webkit-filter: invert(0.5);
+  -moz-filter: invert(0.5);
+  -o-filter: invert(0.5);
+  -ms-filter: invert(0.5);
+}
+.button:hover{
+  filter: invert(0);
+  -webkit-filter: invert(0);
+  -moz-filter: invert(0);
+  -o-filter: invert(0);
+  -ms-filter: invert(0);
+}
+.Nobutton{
+   pointer-events:none;
 }
 .ENDbutton{
   margin-right: 0px;
