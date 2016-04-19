@@ -74,7 +74,5 @@ var main = $(function(){
       console.log('test');
       $('.course').css("background-color", "red");
       });
-  $('.Block-H').jScrollPane();
-
 });
 $(document).ready(main);
