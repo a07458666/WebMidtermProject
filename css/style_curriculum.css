@@ -56,13 +56,13 @@ a{
 }
 .inClass{
   position: absolute;
-  top: 22%;
+  top: 17%;
   left: 18%;
   height: 58%;
   width: 65%;
-  background-color: rgba(50,50,50,0.7);
   border-radius: 20px;
   display: block;
+  max-height: 400px;
 }
 
 #SchoolBack{
@@ -81,7 +81,7 @@ a{
 .Line{
   border:#FFFFFF 1.5px solid;
   width: 100%;
-  margin-bottom: 20px;
+  margin-bottom: 1%;
 }
 /*按鈕框架*/
 #ButtonMain{
@@ -94,4 +94,39 @@ a{
   float: right;
   margin-top: 2%;
   margin-right: 10%;
+}
+.LL{
+  float: right;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+.LL:hover{
+  filter: invert(1);
+  -webkit-filter: invert(1);
+  -moz-filter: invert(1);
+  -o-filter: invert(1);
+  -ms-filter: invert(1);
+}
+table, th, td {
+    border: 0px solid rgb(255,255,255);
+    padding: 0.5%;
+    border-radius: 15px;
+}
+td{
+  background: rgb(255,255,255);
+  width:15%;
+}
+td:hover{
+  background: rgb(200,200,200);
+}
+table {
+    border-spacing: 15px;
+    font-size: 1em;
+    color: rgb(0,0,0);
+    text-align: center;
+    background-color: rgba(50,50,50,0.7);
+    font-family: 微軟正黑體
+}
+.Spice{
+  background-color: rgb(150,150,150);
 }

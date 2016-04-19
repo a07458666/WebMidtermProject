@@ -35,6 +35,9 @@ a{
   display: block;
   clear: both;
 }
+.LOGO{
+
+}
 /*icon圖片*/
 .IconImg{
   width: 3%;
@@ -61,9 +64,8 @@ a{
 }
 .textsoolp{
   position: absolute;
-  top: 45%;
-  left: 25%;
-  font-size: 72px;
+  top: 28%;
+  left: 30%;
   display: none;
 }
 .inClass{
@@ -75,6 +77,7 @@ a{
   background-color: rgba(50,50,50,0.7);
   border-radius: 20px;
   display:none;
+  max-height: 400px;
 }
 .inClass-active{
   display: block;

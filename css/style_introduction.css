@@ -90,6 +90,7 @@ a{
   background-color: rgba(50,50,50,0.7);
   border-radius: 20px;
   display: block;
+  max-height: 400px;
 }
 
 #SchoolBack{
@@ -121,4 +122,16 @@ a{
   float: right;
   margin-top: 2%;
   margin-right: 10%;
+}
+.LL{
+  float: right;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+.LL:hover{
+  filter: invert(1);
+  -webkit-filter: invert(1);
+  -moz-filter: invert(1);
+  -o-filter: invert(1);
+  -ms-filter: invert(1);
 }
