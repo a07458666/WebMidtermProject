@@ -1,5 +1,5 @@
 span{
-  font-family: Kristen ITC,微軟正黑體;
+  font-family: 微軟正黑體;
   color:rgb(255,255,255);
 }
 .TitleText{
@@ -63,9 +63,13 @@ a{
 }
 .textsoolp{
   position: absolute;
-  top: 28%;
-  left: 30%;
+  top: 40%;
+  left: 22%;
   display: none;
+  font-size: 6em;
+  font-weight: bold;
+  text-shadow: 2px 0 2px #000000, 0 2px 2px #000000,
+    0 -2px 2px #000000, -2px 0 2px #000000;
 }
 .inClass{
   position: absolute;

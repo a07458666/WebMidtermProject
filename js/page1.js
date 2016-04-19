@@ -70,9 +70,6 @@ var main = $(function(){
       $('.textsoolp').fadeIn(300).addClass("inClass-active");
       $('#SchoolBack').addClass("Toblur");
       });
-  $('.IconImg').click(function() {
-      console.log('test');
-      $('.course').css("background-color", "red");
-      });
+  $('.Block-H').jscrollpane();
 });
 $(document).ready(main);

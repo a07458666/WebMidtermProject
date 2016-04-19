@@ -22,7 +22,6 @@ a{
   margin-right: auto;
   padding: 0px 0px 0px 0px;
   box-sizing: border-box;
-
 }
 .header{
   margin-bottom: 1%;
@@ -35,9 +34,21 @@ a{
   display: block;
   clear: both;
 }
+.LOGO{
+
+}
+/*icon圖片*/
+.IconImg{
+  width: 3%;
+  height: 3%;
+  float: right;
+  margin-right: 2%;
+  margin-top: 2%;
+}
 .course{
-  height: 68%;
+  height: 65%;
   text-align: center;
+  margin-bottom: 1%;
 }
 .course:before {
   content: "";
@@ -51,38 +62,59 @@ a{
   background:rgba(255, 255, 255, 1);
 }
 .textsoolp{
-  text-align: center;
-  font-size: 72px;
+  position: absolute;
+  top: 28%;
+  left: 30%;
+  display: none;
 }
 .inClass{
   position: absolute;
-  top: 17%;
+  top: 19%;
   left: 18%;
   height: 58%;
   width: 65%;
+  background-color: rgba(50,50,50,0.7);
   border-radius: 20px;
+  display:none;
   max-height: 400px;
 }
-
+.inClass-active{
+  display: block;
+}
+.ClassBlock{
+  float: left;
+  height: 40%;
+  width: 18%;
+  border: #FFFFFF 4px solid;
+  margin-top :2%;
+  margin-left: 5%;
+  border-radius: 20px;
+}
+.classText{
+  font-size: 2em;
+  text-align: center;
+  line-height:2.5em;
+  font-weight: bold;
+}
 #SchoolBack{
   display: inline-block;
   vertical-align: middle;
   width: 90%;
   height: auto;
+}
+.Toblur {
   filter: url(/static/svg/filter.svg#blur);
   filter: blur(5px);
   -webkit-filter: blur(5px);
   -moz-filter: blur(5px);
   -o-filter: blur(5px);
   -ms-filter: blur(5px);
-  margin-bottom: 1%;
-  margin-top: 1%;
 }
 /*線*/
 .Line{
   border:#FFFFFF 1.5px solid;
   width: 100%;
-  margin-bottom: 1%;
+  margin-bottom: 20px;
 }
 /*按鈕框架*/
 #ButtonMain{
@@ -91,46 +123,27 @@ a{
 }
 /*按鈕*/
 .button{
-  font-size: 2em;
-  float: right;
-  margin-top: 2%;
-  margin-right: 10%;
+  width: 10%;
+  height: 10%;
+  float: left;
+  margin-right: 7%;
+  cursor: pointer;
+  filter: invert(0.5);
+  -webkit-filter: invert(0.5);
+  -moz-filter: invert(0.5);
+  -o-filter: invert(0.5);
+  -ms-filter: invert(0.5);
 }
-.LL{
-  float: right;
-  margin-bottom: 20px;
-  margin-right: 20px;
+.button:hover{
+  filter: invert(0);
+  -webkit-filter: invert(0);
+  -moz-filter: invert(0);
+  -o-filter: invert(0);
+  -ms-filter: invert(0);
 }
-.LL:hover{
-  filter: invert(1);
-  -webkit-filter: invert(1);
-  -moz-filter: invert(1);
-  -o-filter: invert(1);
-  -ms-filter: invert(1);
+.Nobutton{
+   pointer-events:none;
 }
-table, th, td {
-    border: 0px solid rgb(255,255,255);
-    padding: 0.5%;
-    border-radius: 15px;
-}
-td{
-  background: rgb(255,255,255);
-  width:15%;
-}
-td:hover{
-  background: rgb(200,200,200);
-}
-table {
-    border-spacing: 15px;
-    font-size: 1em;
-    position: absolute;
-    top: 17%;
-    left: 10%;
-    color: rgb(0,0,0);
-    text-align: center;
-    background-color: rgba(50,50,50,0.7);
-    font-family: 微軟正黑體
-}
-.Spice{
-  background-color: rgb(150,150,150);
+.ENDbutton{
+  margin-right: 0px;
 }

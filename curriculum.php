@@ -14,7 +14,7 @@
     <div class="course">
       <img src="image/schedulebackground.png" alt="school" id="SchoolBack">
       <div class="inclass inClass-active">
-        <table style="width:100%">
+        <table style="width:80%">
           <tr>
             <td class="Spice">節\星期</td>
             <td class="Spice">Mon</td>
@@ -23,18 +23,21 @@
             <td class="Spice">Thu</td>
             <td class="Spice">Fri</td>
           </tr>
-          <!--<td><a href="introduction.html">進入課程</a> </td>-->
+          <!--<td><a href="">進入課程</a> </td>-->
           <?php
-          $Day = $_GET[Day];
-          $C1 = $_GET[C1];
-          $C2 = $_GET[C2];
+          $Day = $_GET[Day]-1;
+          $C1 = $_GET[C1]-1;
+          $C2 = $_GET[C2]-1;
+          $ID =$_GET[ID];
           for ($i=0;$i<9;$i++){
             echo "<tr>";
             echo "<td>$i</td>";
             for ($j=0;$j<5;$j++){
               if(($i==$C1 || $i==$C2) && $j==$Day){
                 echo "<td>";
-                echo '<a href="A.html">';
+                echo '<a href="class/introduction';
+                echo $ID;
+                echo '.html">';
                 echo "進入課程</a>";
                 echo "</td>";
               }
